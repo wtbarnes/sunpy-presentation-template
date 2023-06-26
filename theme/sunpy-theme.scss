@@ -1,0 +1,16 @@
+/*-- scss:defaults --*/
+
+$sunpy-yellow: #FED20B;
+$sunpy-orange: #FE7900;
+$sunpy-grey: #444444;
+$body-bg: #ffffff;
+$body-color: $sunpy-grey;
+$presentation-heading-color: $sunpy-orange;
+$presentation-title-slide-text-align: right;
+$font-family-sans-serif: "Roboto", sans-serif;
+
+/*-- scss:rules --*/
+section.slide h2 {
+    color: $sunpy-orange !important;
+    background-color: $sunpy-yellow !important;
+  }
