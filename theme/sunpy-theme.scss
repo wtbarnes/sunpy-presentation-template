@@ -11,6 +11,12 @@ $font-family-sans-serif: "Roboto", sans-serif;
 
 /*-- scss:rules --*/
 section.slide h2 {
-    color: $sunpy-orange !important;
-    background-color: $sunpy-yellow !important;
-  }
+  color: $sunpy-grey !important;
+  background-color: $sunpy-yellow !important;
+  width: 200vw;
+  position: relative;
+  left: -20vw;
+  padding-left: 20vw;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
