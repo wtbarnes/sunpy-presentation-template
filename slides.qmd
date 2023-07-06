@@ -10,6 +10,9 @@ institute:
 - NASA
 format:
   revealjs:
+    margin: 0
+    width: 100%
+    height: 100%
     theme: [default, theme/sunpy-theme.scss]
     logo: static/sunpy_logo_landscape.svg
 title-slide-attributes: 
@@ -23,7 +26,7 @@ title-slide-attributes:
 
 ---
 
-![](static/tour.svg)
+![](static/tour.svg){height="750"}
 
 ## The package includes...
 
@@ -35,6 +38,7 @@ title-slide-attributes:
 ## Another slide with a plot inline
 
 ```{python}
+#| fig-align: center
 import sunpy.map
 import sunpy.data.sample
 

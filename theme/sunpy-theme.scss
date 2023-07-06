@@ -6,17 +6,33 @@ $sunpy-grey: #444444;
 $body-bg: #ffffff;
 $body-color: $sunpy-grey;
 $presentation-heading-color: $sunpy-orange;
+$link-color: $sunpy-orange;
+$code-color: $sunpy-orange;
 $presentation-title-slide-text-align: right;
 $font-family-sans-serif: "Roboto", sans-serif;
+$body-text-margin: 20px;
 
 /*-- scss:rules --*/
+section.quarto-title-block h1.title, p.subtitle, div.quarto-title-authors {
+  margin-right: $body-text-margin;
+  margin-left: $body-text-margin;
+}
+
+section.slide h1 {
+  text-align: center;
+}
+
 section.slide h2 {
   color: $sunpy-grey !important;
   background-color: $sunpy-yellow !important;
-  width: 200vw;
-  position: relative;
-  left: -20vw;
-  padding-left: 20vw;
+  text-align: right;
+  padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
+  border-bottom: 4px solid $sunpy-orange;
+}
+
+section.slide p, li, div.cell {
+  margin-right: $body-text-margin;
+  margin-left: $body-text-margin;
 }
