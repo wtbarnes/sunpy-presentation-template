@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "slides.html#the-package-includes",
+    "href": "slides.html#the-package-includes",
+    "title": "An Example SunPy Presentation",
+    "section": "The package includes…",
+    "text": "The package includes…\n\nData search and retrieval\nData structures for timeseries and image data\nCoordinate frames and conversions\nand much more!"
+  },
+  {
+    "objectID": "slides.html#another-slide-with-a-plot-inline",
+    "href": "slides.html#another-slide-with-a-plot-inline",
+    "title": "An Example SunPy Presentation",
+    "section": "Another slide with a plot inline",
+    "text": "Another slide with a plot inline"
+  },
+  {
+    "objectID": "slides.html#you-can-also-include-code",
+    "href": "slides.html#you-can-also-include-code",
+    "title": "An Example SunPy Presentation",
+    "section": "You can also include code",
+    "text": "You can also include code\nThe code below shows how to create a coordinate in the same frame as the map shown before.\n\nimport astropy.coordinates\nimport astropy.units as u\nmy_coord = astropy.coordinates.SkyCoord(Tx=300*u.arcsec, Ty=500*u.arcsec, frame=m.coordinate_frame)\nprint(my_coord)\n\n&lt;SkyCoord (Helioprojective: obstime=2011-06-07T06:33:02.880, rsun=696000.0 km, observer=&lt;HeliographicStonyhurst Coordinate (obstime=2011-06-07T06:33:02.880, rsun=696000.0 km): (lon, lat, radius) in (deg, deg, m)\n    (-0.00406429, 0.04787238, 1.51846026e+11)&gt;): (Tx, Ty) in arcsec\n    (300., 500.)&gt;"
+  }
+]
